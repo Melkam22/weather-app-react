@@ -1,0 +1,230 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./images/wind.jpg);
+  background-position: center;
+}
+/* background images */
+.clear, .sun, .sunny {
+  background: url(./images/sunflower.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px; 
+}
+.rain /* .shower, .light, .moderate */{
+  background: url(./images/rain.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px; 
+}
+
+.shower {
+background: url(./images/rain.jpeg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 600px;
+height: 400px; 
+}
+.light {
+  background: url(./images/rain.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px; 
+  }
+  .moderate {
+    background: url(./images/rain.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px; 
+    }
+.drizzle{
+  background: url(./images/drizzle.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.clouds {
+  background: url(./images/scateredclouds.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.cloudy {
+  background: url(./images/scateredclouds.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.few {
+  background: url(./images/scateredclouds.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.scattered {
+  background: url(./images/scateredclouds.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.broken {
+  background: url(./images/scateredclouds.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.overcast {
+  background: url(./images/scateredclouds.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.mist {
+  background: url(./images/fog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.fog {
+  background: url(./images/fog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+}
+.thunderstorm/* , .light, .heavy */ {
+  background: url(./images/fog.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+.light {
+  background: url(./images/fog.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+.heavy {
+  background: url(./images/fog.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+ 
+.main{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+h1{
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 3px 5px 6px white;
+}
+Input{
+  border: none;
+  border-bottom: 2px solid blue;
+}
+.container{
+  width: 70%;
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* input & btn */
+.form{
+  width: 30%;
+  height: 30px;
+  display: flex;
+}
+/* input margin styled for mobile version */
+.input {
+  border: none;
+  border-bottom: 2px solid blue;
+  margin-left: 10%;
+  min-width: 80%;
+}
+.btn{
+  border: none;
+  height: 35px;
+  width: 120px;
+  background: rgba(150,250,25,.5);
+}
+#btn{
+  border: none;
+  height: 35px;
+  width: 120px;
+  background: rgba(228,46,13,.8);
+}
+.temperature, .humidity, .description, .windSpeed, .country, .weather{
+  width: 250px;
+  height: 50px;
+  background: rgba(150,250,25,.4);
+  /* background: rgba(128,146,183,.8); */
+  box-shadow: 3px 4px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+form{
+  margin: 2% auto;
+}
+.refresh{
+  text-align: center;
+  margin: 2% auto;
+}
+.title{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(128,146,183,.8);
+  margin-left: 75%;
+  position: relative;
+}
+.span{
+   position: absolute;
+   margin-left: 30%;
+   padding-top: 30%;
+}
